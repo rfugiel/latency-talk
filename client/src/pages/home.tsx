@@ -1,5 +1,4 @@
 import { useState, useCallback, useRef, useEffect } from "react";
-import { PerplexityAttribution } from "@/components/PerplexityAttribution";
 
 // ─── Toast Notification System ────────────────────────────────
 interface Toast {
@@ -786,7 +785,6 @@ export default function Home() {
           <div className="text-xs text-muted-foreground font-mono">
             latency & technical debt — interactive talk
           </div>
-          <PerplexityAttribution />
         </div>
       </footer>
 
